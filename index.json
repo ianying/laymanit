@@ -1,0 +1,85 @@
+[
+{
+	"uri": "https://ianying.github.io/laymanit/01hugobasic/",
+	"title": "学会用Hugo创建静态博客",
+	"tags": [],
+	"description": "",
+	"content": "学会用Hugo创建静态博客 这是一个使用Hugo创建静态博客的教程，也是一个Hugo使用的基础教程。\n网易云课堂链接：\n"
+},
+{
+	"uri": "https://ianying.github.io/laymanit/01hugobasic/01preface/",
+	"title": "第一章 前言",
+	"tags": [],
+	"description": "",
+	"content": "Hugo是什么 简单的讲，hugo就是一个静态网页的生产工具。通过Hugo可以将本机的文章生成网页，并以一定的形式组织起来。Hugo 官方网站：\n静态博客的优点  漏洞相对于动态网页少 博客程序无需升级 文章管理备份方便，自己掌控文章  为什么选择Hugo  安装方便，只有一个exe程序  Hugo的已知缺点 不支持中文路径。\n"
+},
+{
+	"uri": "https://ianying.github.io/laymanit/01hugobasic/02quickstart/",
+	"title": "第二章 快速入门",
+	"tags": [],
+	"description": "",
+	"content": "下载  访问官方网站，网址：http://www.gohugo.io 点击首页中间的Quick Start: https://gohugo.io/getting-started/quick-start/ 点击Install链接：https://gohugo.io/getting-started/installing 找到Hugo Releases下载地址：https://github.com/gohugoio/hugo/releases 根据自己的操作系统版本下载。  安装  在一个英文路径下建立一个目录，如hugo 在hugo目录下建立一个bin目录。 将下载的hugo.exe放入bin目录。 设置环境变量，在path中增加hugo.exe所在目录。  成果：建立一个站点  运行cmd，并进入hugo目录。cd hugo 如建立一个名为blog的站点，运行命令：hugo new site blog 下载主题，解压，更名 初步配置 config.toml 运行网站 hugo server 写第一篇：进入目录：hugo new post/XXXXX.md 打开浏览器访问：localhost:1313  "
+},
+{
+	"uri": "https://ianying.github.io/laymanit/01hugobasic/03vscode-markdown/",
+	"title": "第三章 VS Code和Markdown",
+	"tags": [],
+	"description": "",
+	"content": "VS Code简介 优点，与Atom的对比  有绿色版，无需安装 文件大小大概小了一半 自带terminal，不需要安装插件，直接ctrl-`可以调出。 tab已经默认是4个空格了，不需要再重新设置  VS Code下载安装 绿色版的安装 进入VS Code官方网站，点击下载，选择stable列下的zip。也可以选择安装版，看各人喜好。\n首次进入 设置  基本不用设置 设置字体字号  安装插件  markdownlint，可以显示markdown中不规范的地方。 markdown All in One，为设置格式增加快捷操作。  Markdown介绍 Markdown简介 标题和文字 图片  本地 url  链接 "
+},
+{
+	"uri": "https://ianying.github.io/laymanit/01hugobasic/04build-a-blog/",
+	"title": "第四章 一个博客创建的完整实例",
+	"tags": [],
+	"description": "",
+	"content": "创建一个站点 复习，使用VS Code创建一个站点 配置 BaseUrl 未来网站的域名\nLanguage code “zh-CN” 中文，中国版本，或直接配置“zh”\nTitle 网站标题\nTheme 选用的主题\n进一步配置，优化站点 修改副标题 修改侧边栏 修改声明 修改友情链接 "
+},
+{
+	"uri": "https://ianying.github.io/laymanit/01hugobasic/05write-posts/",
+	"title": "第五章 撰写文章",
+	"tags": [],
+	"description": "",
+	"content": "写博客 创建 撰写文章 创建页面 示例主题的配置全部说明 "
+},
+{
+	"uri": "https://ianying.github.io/laymanit/01hugobasic/06follow-up/",
+	"title": "第六章 生成网站及下一步学习的方向",
+	"tags": [],
+	"description": "",
+	"content": "生成网站 直接输入命令：hugo。会在本地新生成一个public文件夹，该文件夹内就是所有网站的静态文件。\n上传网站 申请一个主机 收费或免费\n域名 申请一个域名，部分主机提供免费二级域名\n根据国家的相关规定操作 后续的学习方向  html hugo的深入学习，查看官方文档 多使用几个主题练习 重点还是关注文章的质量  "
+},
+{
+	"uri": "https://ianying.github.io/laymanit/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ianying.github.io/laymanit/credits/",
+	"title": "Credits",
+	"tags": [],
+	"description": "",
+	"content": " Contributors Thanks to them  for making Open Source Software a better place !\n.ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @matcornic 131 commits   @lierdakil 16 commits   @gwleclerc 13 commits   @mdavids 8 commits   @Xipas 5 commits   @mreithub 3 commits   @Thiht 3 commits   @denisvm 2 commits   @gpospelov 2 commits   @lfalin 2 commits   @alexvargasbenamburg 1 commits   @MrMoio 1 commits   @giuliov 1 commits   @haitch 1 commits   @RealOrangeOne 1 commits   @tanzaho 1 commits   @JohnBlood 1 commits   @kamilchm 1 commits   @sykesm 1 commits   @ripienaar 1 commits   @EnigmaCurry 1 commits   @kamar535 1 commits   @proelbtn 1 commits   And a special thanks to @vjeantet for his work on docdock, a fork of hugo-theme-learn. v2.0.0 of this theme is inspired by his work.\nPackages and libraries  mermaid - generation of diagram and flowchart from text in a similar manner as markdown font awesome - the iconic font and CSS framework jQuery - The Write Less, Do More, JavaScript Library lunr - Lunr enables you to provide a great search experience without the need for external, server-side, search services\u0026hellip; horsey - Progressive and customizable autocomplete component clipboard.js - copy text to clipboard highlight.js - Javascript syntax highlighter modernizr - A JavaScript toolkit that allows web developers to use new CSS3 and HTML5 features while maintaining a fine level of control over browsers that don\u0026rsquo;t support  Tooling  Netlify - Continuous deployement and hosting of this documentation Hugo  "
+},
+{
+	"uri": "https://ianying.github.io/laymanit/",
+	"title": "LaymanIT的文档",
+	"tags": [],
+	"description": "",
+	"content": " 这里是LaymanIT的文档站 请点击左侧的栏目访问需要访问的内容。 "
+},
+{
+	"uri": "https://ianying.github.io/laymanit/showcase/",
+	"title": "Showcase",
+	"tags": [],
+	"description": "",
+	"content": " TAT by OVH "
+},
+{
+	"uri": "https://ianying.github.io/laymanit/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
