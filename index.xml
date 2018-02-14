@@ -17,7 +17,7 @@
       
       <guid>https://ianying.github.io/laymanit/01hugobasic/01preface/</guid>
       <description>Hugo是什么 简单的讲，hugo就是一个静态网页的生产工具。通过Hugo可以将本机的文章生成网页，并以一定的形式组织起来。Hugo 官方网站：
-静态博客的优点  漏洞相对于动态网页少 博客程序无需升级 文章管理备份方便，自己掌控文章  为什么选择Hugo  安装方便，只有一个exe程序  Hugo的已知缺点 不支持中文路径。</description>
+静态博客的优点  漏洞相对于动态网页少 博客程序无需升级 文章管理备份方便，自己掌控文章  为什么选择Hugo  安装方便，只有一个exe程序。Jekll或Hexo等类似工具，需要安装相应的程序语言运行环境，对于非程序员来讲有一定难度，而且由于涉及的程序相对更多，出错的可能也多，而且对于普通人来讲，一旦出错，很难解决。  Hugo的已知缺点 不支持中文路径。</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ianying.github.io/laymanit/01hugobasic/03vscode-markdown/</guid>
-      <description>VS Code简介 优点，与Atom的对比  有绿色版，无需安装 文件大小大概小了一半 自带terminal，不需要安装插件，直接ctrl-`可以调出。 tab已经默认是4个空格了，不需要再重新设置  VS Code下载安装 绿色版的安装 进入VS Code官方网站，点击下载，选择stable列下的zip。也可以选择安装版，看各人喜好。
+      <description>Visual Studio Code简介 优点，与Atom的对比  有绿色版，无需安装 文件大小大概小了一半 自带terminal，不需要安装插件，直接ctrl-`可以调出。 tab已经默认是4个空格了，不需要再重新设置  VS Code下载安装 绿色版的安装 进入VS Code官方网站，点击下载，选择stable列下的zip。也可以选择安装版，看各人喜好。
 首次进入 设置  基本不用设置 设置字体字号  安装插件  markdownlint，可以显示markdown中不规范的地方。 markdown All in One，为设置格式增加快捷操作。  Markdown介绍 Markdown简介 标题和文字 图片  本地 url  链接 </description>
     </item>
     
