@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title>第二章 快速入门 :: LaymanIT的文档</title>
+    <title>快速上手：建立一个初步的清单 :: LaymanIT的文档</title>
     
     
     <link href="/laymanit/css/nucleus.css?1519266440" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/laymanit/01hugobasic/02quickstart/">
+  <body class="" data-url="/laymanit/03org-mode-basic/03org-mode-quick-start/">
     <nav id="sidebar" class="">
 
 
@@ -77,7 +77,7 @@
   
     
     <li data-nav-id="/laymanit/01hugobasic/" title="学会用Hugo创建静态博客" class="dd-item 
-        parent
+        
         
         
         ">
@@ -120,7 +120,7 @@
  
   
     
-      <li data-nav-id="/laymanit/01hugobasic/02quickstart/" title="第二章 快速入门" class="dd-item active">
+      <li data-nav-id="/laymanit/01hugobasic/02quickstart/" title="第二章 快速入门" class="dd-item ">
         <a href="/laymanit/01hugobasic/02quickstart/">
         <b>2. </b>第二章 快速入门
         
@@ -223,7 +223,7 @@
   
     
     <li data-nav-id="/laymanit/03org-mode-basic/" title="Org Mode任务管理" class="dd-item 
-        
+        parent
         
         
         ">
@@ -285,7 +285,7 @@
  
   
     
-      <li data-nav-id="/laymanit/03org-mode-basic/03org-mode-quick-start/" title="快速上手：建立一个初步的清单" class="dd-item ">
+      <li data-nav-id="/laymanit/03org-mode-basic/03org-mode-quick-start/" title="快速上手：建立一个初步的清单" class="dd-item active">
         <a href="/laymanit/03org-mode-basic/03org-mode-quick-start/">
         <b>3. </b>快速上手：建立一个初步的清单
         
@@ -365,7 +365,7 @@
             
           
           
-            <a href='/laymanit/'>LaymanIT的文档</a> > <a href='/laymanit/01hugobasic/'>学会用Hugo创建静态博客</a> > 第二章 快速入门
+            <a href='/laymanit/'>LaymanIT的文档</a> > <a href='/laymanit/03org-mode-basic/'>Org Mode任务管理</a> > 快速上手：建立一个初步的清单
           
          
           
@@ -389,42 +389,38 @@
         
         <div id="body-inner">
           
-            <h1>第二章 快速入门</h1>
+            <h1>快速上手：建立一个初步的清单</h1>
           
 
         
 
 
-<h2 id="下载">下载</h2>
+<h2 id="说明">说明</h2>
 
-<ol>
-<li>访问官方网站，网址：http://www.gohugo.io</li>
-<li>点击首页中间的Quick Start: https://gohugo.io/getting-started/quick-start/</li>
-<li>点击Install链接：https://gohugo.io/getting-started/installing</li>
-<li>找到Hugo Releases下载地址：https://github.com/gohugoio/hugo/releases</li>
-<li>根据自己的操作系统版本下载。</li>
-</ol>
+<ul>
+<li>先不要使用快捷键，因为Emacs的快捷键与windows习惯的不同，只使用按钮和菜单栏。</li>
+<li>如果误按了，用ESC取消，或者用Ctrl-g</li>
+</ul>
 
-<h2 id="安装">安装</h2>
+<h2 id="建立一个清单">建立一个清单</h2>
 
-<ol>
-<li>在一个英文路径下建立一个目录，如hugo</li>
-<li>在hugo目录下建立一个bin目录。</li>
-<li>将下载的hugo.exe放入bin目录。</li>
-<li>设置环境变量，在path中增加hugo.exe所在目录。</li>
-</ol>
+<h3 id="列表以-加空格开头">列表以*加空格开头</h3>
 
-<h2 id="成果-建立一个站点">成果：建立一个站点</h2>
+<pre><code class="language-org-mode">* 一级列表
+** 二级列表
+*** 三级列表
+以此类推
+</code></pre>
 
-<ol>
-<li>运行cmd，并进入hugo目录。cd hugo</li>
-<li>如建立一个名为blog的站点，运行命令：hugo new site blog</li>
-<li>下载主题，解压，更名</li>
-<li>初步配置 config.toml</li>
-<li>运行网站 hugo server</li>
-<li>写第一篇：进入目录：hugo new post/XXXXX.md</li>
-<li>打开浏览器访问：localhost:1313</li>
-</ol>
+<h3 id="任务状态">任务状态</h3>
+
+<ul>
+<li>通过菜单介绍使用</li>
+<li>tab</li>
+<li>TODO S-左 S-右</li>
+<li>一个配置，打开上次打开的文件</li>
+<li>desktop-save-mode</li>
+</ul>
 
 
 <footer class=" footline" >
@@ -463,6 +459,8 @@
             
                 
                     
+                        
+                        
                     
                 
                 
@@ -476,26 +474,6 @@
             
             
                 
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                     
                 
                 
@@ -512,9 +490,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -575,54 +550,6 @@
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
             
             
@@ -642,6 +569,75 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
             
         
         
@@ -649,10 +645,10 @@
 
 
         
-            <a class="nav nav-prev" href="/laymanit/01hugobasic/01preface/" title="第一章 前言"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/laymanit/03org-mode-basic/02installation-of-emacs/" title="Emacs的安装和初步配置"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/laymanit/01hugobasic/03vscode-markdown/" title="第三章 VS Code和Markdown" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/laymanit/03org-mode-basic/01org-basic-preface/" title="第一章 Org Mode前言" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

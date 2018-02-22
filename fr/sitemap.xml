@@ -18,21 +18,8 @@
   </url>
   
   <url>
-    <loc>https://ianying.github.io/laymanit/fr/credits/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ianying.github.io/laymanit/credits/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://ianying.github.io/laymanit/fr/credits/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ianying.github.io/laymanit/fr/</loc>
+    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -57,20 +44,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://ianying.github.io/laymanit/fr/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://ianying.github.io/laymanit/fr/vitrine/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ianying.github.io/laymanit/showcase/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://ianying.github.io/laymanit/fr/vitrine/"
                 />
   </url>
   

@@ -6,9 +6,20 @@
     <description>Recent content on LaymanIT的文档</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Tue, 20 Feb 2018 12:58:33 +0800</lastBuildDate>
     
 	<atom:link href="https://ianying.github.io/laymanit/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>第一章 Org Mode前言</title>
+      <link>https://ianying.github.io/laymanit/03org-mode-basic/01org-basic-preface/</link>
+      <pubDate>Tue, 20 Feb 2018 12:58:33 +0800</pubDate>
+      
+      <guid>https://ianying.github.io/laymanit/03org-mode-basic/01org-basic-preface/</guid>
+      <description>Org Mode 前言 一、压力很大  会用的都是程序员 用得好的都是高人 好在不会来看  二、EMACS是什么  官方网站：https://www.gnu.org/software/emacs/ 一个可扩展、可定制、自由的文本编辑器 and more 高度可定制，只要能想到基本都能实现 Emacs中文网 http://emacser.com/ ：没有我做不到的，只有你想不到的 GNU GNU介绍 https://www.gnu.org/gnu/thegnuproject.html Richard Stallman1983年发起（情怀） 目标创建自由的操作系统 非洲牛羚，自定义发音 自由软件，开源软件的差异 1985年EMACS 1985年自由软件基金会  三、Org Mode是什么 Org Mode是Emacs的一个Major Mode。本质上是使用Emacs。
+四、Org-Mode能做什么  GTD、任务管理、日程计划 做笔记 html生成、静态博客  五、为什么选择orgmode作为任务管理的工具 个人的需求  GTD基本功能，任务管理。 树形清单。outline。 有windows端，移动端之间可以相互同步。 可以给project记录日志，日志可以只是纯文本，比如新建一个项目A，在项目A中可以记录所有与项目A有关的信息，同时建立todo。4. 所有记录的内容，包括todo及完成情况，还有项目信息都可以很方便的查询到。  所有记录内容可以导出备份（比如txt或html或pdf格式），即使没有安装这个软件也可以打开，数据可以掌控在自己手中。 最好都是免费的。  曾经试用过的软件和应用的缺点  没有一个有覆盖上述所有功能的软件  org-mode的优点（局限于个人现有的认识）  树形清单，可折叠。可以随意设置分类任务。 任务的状态可自行设置定义。 时间记录完善，任务计划时间、截止时间、完成时间，任务时间记录。 可以设置Tag。 强大的Agenda View，可以定义各种过滤条件。 可归档，可自定义归档。 一切都是纯文本。 可实现几乎所有的功能，有能力的话。  org-mode的缺点  使用上并不友好，如果要深入，学习成本大。 移动端的支持并不友好。  个人的建议  克制。只作为任务管理的工具，2/8原则，使用20%的功能，就可以实现我们所有的需求。 入门后如果有余力再作为笔记的工具。 再有余力，可以考虑其它功能的探索，如：作为html生成的工具  </description>
+    </item>
     
     <item>
       <title>第一章 前言</title>
@@ -21,12 +32,33 @@
     </item>
     
     <item>
+      <title>Emacs的安装和初步配置</title>
+      <link>https://ianying.github.io/laymanit/03org-mode-basic/02installation-of-emacs/</link>
+      <pubDate>Wed, 21 Feb 2018 19:29:26 +0800</pubDate>
+      
+      <guid>https://ianying.github.io/laymanit/03org-mode-basic/02installation-of-emacs/</guid>
+      <description>下载  EMACS官方网站：https://www.gnu.org/software/emacs/ 根据操作系统，找到最新的版本，下载zip压缩包。  安装  无需安装。 解压后放到合适的目录，英文路径。  使用  在bin文件夹下找到runemacs.exe，建立快捷方式。 可使用addpm创建开始菜单快捷方式。  初始简单配置 配置文件  配置文件是.emacs文件，如果还没有设置过emacs，这个文件尚未被创建。 通常情况下，windows用户，配置文件位于用户文件夹，如: C:\Users\你的用户名\Roaming 与一个.emacs文件夹位于同一个目录下。 可以通过搜索.emacs文件夹找到。 如果设置了HOME环境变量，则位于设置的目录下。  设置字体和主题 尽量使用菜单栏和交互界面来设置。
+设置字体并创建.emacs配置文件 可以通过调整字体来创建.emacs配置文件。方法：菜单栏 Option - Set defualt font 。设置完成确定后，需要再次点击菜单栏： Option - Save option （此时.emacs文件生成）
+调整主题 菜单栏 Option - Customize Emacs - Custome Themes , 选择需要的主题，然后点击&#34;Apply and save&#34;。
+配置文件的维护  可以通过直接粘帖他人的配置到自己的.emacs文件中。 如果配置完没有生效，建议重新启动Emacs，如果启动报错，应调整新添加的配置。 对于每一条配置，可以自行添加备注，注释符号为： ;; 。 注意经常备份.emacs文件。  </description>
+    </item>
+    
+    <item>
       <title>第二章 快速入门</title>
       <link>https://ianying.github.io/laymanit/01hugobasic/02quickstart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ianying.github.io/laymanit/01hugobasic/02quickstart/</guid>
       <description>下载  访问官方网站，网址：http://www.gohugo.io 点击首页中间的Quick Start: https://gohugo.io/getting-started/quick-start/ 点击Install链接：https://gohugo.io/getting-started/installing 找到Hugo Releases下载地址：https://github.com/gohugoio/hugo/releases 根据自己的操作系统版本下载。  安装  在一个英文路径下建立一个目录，如hugo 在hugo目录下建立一个bin目录。 将下载的hugo.exe放入bin目录。 设置环境变量，在path中增加hugo.exe所在目录。  成果：建立一个站点  运行cmd，并进入hugo目录。cd hugo 如建立一个名为blog的站点，运行命令：hugo new site blog 下载主题，解压，更名 初步配置 config.toml 运行网站 hugo server 写第一篇：进入目录：hugo new post/XXXXX.md 打开浏览器访问：localhost:1313  </description>
+    </item>
+    
+    <item>
+      <title>快速上手：建立一个初步的清单</title>
+      <link>https://ianying.github.io/laymanit/03org-mode-basic/03org-mode-quick-start/</link>
+      <pubDate>Wed, 21 Feb 2018 19:51:16 +0800</pubDate>
+      
+      <guid>https://ianying.github.io/laymanit/03org-mode-basic/03org-mode-quick-start/</guid>
+      <description>说明  先不要使用快捷键，因为Emacs的快捷键与windows习惯的不同，只使用按钮和菜单栏。 如果误按了，用ESC取消，或者用Ctrl-g  建立一个清单 列表以*加空格开头 * 一级列表 ** 二级列表 *** 三级列表 以此类推  任务状态  通过菜单介绍使用 tab TODO S-左 S-右 一个配置，打开上次打开的文件 desktop-save-mode  </description>
     </item>
     
     <item>

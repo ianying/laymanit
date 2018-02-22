@@ -7,11 +7,31 @@
   </url>
   
   <url>
+    <loc>https://ianying.github.io/laymanit/03org-mode-basic/01org-basic-preface/</loc>
+    <lastmod>2018-02-20T12:58:33+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ianying.github.io/laymanit/01hugobasic/01preface/</loc>
   </url>
   
   <url>
+    <loc>https://ianying.github.io/laymanit/03org-mode-basic/02installation-of-emacs/</loc>
+    <lastmod>2018-02-21T19:29:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ianying.github.io/laymanit/03org-mode-basic/</loc>
+    <lastmod>2018-02-20T12:58:33+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ianying.github.io/laymanit/01hugobasic/02quickstart/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ianying.github.io/laymanit/03org-mode-basic/03org-mode-quick-start/</loc>
+    <lastmod>2018-02-21T19:51:16+08:00</lastmod>
   </url>
   
   <url>
@@ -47,20 +67,11 @@
   
   <url>
     <loc>https://ianying.github.io/laymanit/credits/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://ianying.github.io/laymanit/fr/credits/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ianying.github.io/laymanit/credits/"
-                />
   </url>
   
   <url>
     <loc>https://ianying.github.io/laymanit/</loc>
+    <lastmod>2018-02-20T12:58:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -75,16 +86,6 @@
   
   <url>
     <loc>https://ianying.github.io/laymanit/showcase/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://ianying.github.io/laymanit/fr/vitrine/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ianying.github.io/laymanit/showcase/"
-                />
   </url>
   
   <url>
